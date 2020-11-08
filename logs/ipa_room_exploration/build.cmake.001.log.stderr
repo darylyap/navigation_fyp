@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "ipa_building_msgs"
+  with any of the following names:
+
+    ipa_building_msgsConfig.cmake
+    ipa_building_msgs-config.cmake
+
+  Add the installation prefix of "ipa_building_msgs" to CMAKE_PREFIX_PATH or
+  set "ipa_building_msgs_DIR" to a directory containing one of the above
+  files.  If "ipa_building_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:33 (find_package)
+
+

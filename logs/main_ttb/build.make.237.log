@@ -1,0 +1,20 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target main_ttb_generate_messages_py
+[ 28%] Built target listener
+[ 57%] Built target talker
+[ 57%] Built target main_ttb_generate_messages_nodejs
+[ 71%] Built target main_ttb_generate_messages_eus
+[ 71%] Built target main_ttb_generate_messages_cpp
+[ 71%] Built target main_ttb_generate_messages_lisp
+[100%] Built target odom
+[100%] Built target main_ttb_generate_messages

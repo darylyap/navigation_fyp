@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_room_exploration/lib/pkgconfig/ipa_room_exploration.pc

@@ -1,0 +1,26 @@
+[33m[1mCMake Warning[0m at /home/daryl/ttb_ws/src/ipa_tsp_solvers/libconcorde_tsp_solver/CMakeLists.txt:10 (find_package):
+  By not providing "Findlibqsopt.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "libqsopt",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "libqsopt" with any
+  of the following names:
+
+    libqsoptConfig.cmake
+    libqsopt-config.cmake
+
+  Add the installation prefix of "libqsopt" to CMAKE_PREFIX_PATH or set
+  "libqsopt_DIR" to a directory containing one of the above files.  If
+  "libqsopt" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+libqsopt_FOUND = 0
+libqsopt_INCLUDE_DIRS =
+using LIBQSOPT_INCLUDE_PATH = NOTFOUND
+libqsopt_LIBRARIES =
+[33m[1mCMake Warning[0m at /home/daryl/ttb_ws/src/ipa_tsp_solvers/libconcorde_tsp_solver/CMakeLists.txt:26 (message):
+  +++++++++++ QSOPT NOT INSTALLED, ONLY TSPs WITH UP TO 10 NODES SOLVABLE
+  +++++++++++
+
+

@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_building_msgs/share/roseus/ros/ipa_building_msgs/msg/MapSegmentationActionGoal.l

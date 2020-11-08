@@ -1,0 +1,7 @@
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_exploration/ros/src/room_exploration_action_server.cpp:[m[K In member function ‘[01m[Kvoid RoomExplorationServer::exploreRoom(const RoomExplorationGoalConstPtr&)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_exploration/ros/src/room_exploration_action_server.cpp:636:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Ktrue[m[K’
+  if [01;31m[Ktrue[m[K:
+     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/room_exploration_server.dir/ros/src/room_exploration_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/room_exploration_server.dir/all] Error 2
+make: *** [all] Error 2

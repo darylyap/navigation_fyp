@@ -1,0 +1,11 @@
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_exploration/ros/src/room_exploration_action_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_exploration/ros/src/room_exploration_action_client.cpp:68:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_exploration/ros/src/room_exploration_action_client.cpp:74:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  [01;31m[K}[m[K
+  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/room_exploration_client.dir/ros/src/room_exploration_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/room_exploration_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

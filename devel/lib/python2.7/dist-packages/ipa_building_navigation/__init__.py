@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_building_navigation/lib/python2.7/dist-packages/ipa_building_navigation/__init__.py

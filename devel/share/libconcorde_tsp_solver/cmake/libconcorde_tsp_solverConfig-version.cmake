@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/libconcorde_tsp_solver/share/libconcorde_tsp_solver/cmake/libconcorde_tsp_solverConfig-version.cmake

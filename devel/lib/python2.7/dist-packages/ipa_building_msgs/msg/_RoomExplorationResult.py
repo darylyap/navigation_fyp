@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_building_msgs/lib/python2.7/dist-packages/ipa_building_msgs/msg/_RoomExplorationResult.py

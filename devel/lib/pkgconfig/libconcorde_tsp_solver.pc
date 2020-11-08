@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/libconcorde_tsp_solver/lib/pkgconfig/libconcorde_tsp_solver.pc

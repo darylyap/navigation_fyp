@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="model" default="burger"/>
+  <arg name="x_pos" default="$(env INIT_X)"/>
+  <arg name="y_pos" default="$(env INIT_Y)"/>
+  <arg name="z_pos" default="$(env INIT_Z)"/>
+  <arg name="YAW" default="$(env INIT_YAW)"/>
+  <arg name="map_file" default="$(find main_ttb)/map/map.yaml"/>
+
+<!-- added -->
+  <arg name="move_forward_only" default="false"/>
+
+  <!-- GAZEBO -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find main_ttb)/worlds/empty.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -Y $(arg YAW) -param robot_description" />
+
+  <!-- TURTBLEBOT FOR SIMULATION -->
+<!--   <node pkg="turtlebot3_fake" type="turtlebot3_fake_node" name="turtlebot3_fake_node" output="screen" />
+ -->
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch" >
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+    <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)" /> 
+
+  <!-- Navigation node -->
+  <!-- AMCL -->
+  <include file="$(find turtlebot3_navigation)/launch/amcl.launch"/>
+
+  <!-- FOLLOW_WAYPOINT -->
+  <env name="ROSCONSOLE_FORMAT" value="[${severity}][${thread}][${node}/${function}:${line}]: ${message}"/>
+  <node pkg="follow_waypoints" type="follow_waypoints" name="follow_waypoints" output="screen" clear_params="true">
+    <param name="goal_frame_id" value="map"/>
+  </node>
+
+  <!-- move_base -->
+  <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+    <arg name="model" value="$(arg model)" />
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include>
+
+  <!-- movement_node -->
+  <node pkg="main_ttb" name="movement_node" type="movement_node.py" args="running movement_node" />
+
+  <!-- visualisation_node -->
+  <!-- <node pkg="main_ttb" name="2d_surface_plot" type="2d_surface_plot.py" args="running 2d_surface_plot" /> -->
+
+   <!-- RVIZ -->
+ <!--  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find turtlebot3_description)/rviz/model.rviz" /> -->
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
+
+  <!-- IPA_ROOM EXPLORARION -->
+  <include file="$(find ipa_room_exploration)/ros/launch/room_exploration_action_server.launch" />
+
+  <node ns="room_exploration" pkg="ipa_room_exploration" type="room_exploration_client" name="room_exploration_client" output="screen" respawn="true" respawn_delay="2" />
+ 
+</launch>

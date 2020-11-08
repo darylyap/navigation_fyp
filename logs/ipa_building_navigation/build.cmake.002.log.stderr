@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "libconcorde_tsp_solver" with any of the following names:
+
+    libconcorde_tsp_solverConfig.cmake
+    libconcorde_tsp_solver-config.cmake
+
+  Add the installation prefix of "libconcorde_tsp_solver" to
+  CMAKE_PREFIX_PATH or set "libconcorde_tsp_solver_DIR" to a directory
+  containing one of the above files.  If "libconcorde_tsp_solver" provides a
+  separate development package or SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:22 (find_package)
+
+

@@ -1,0 +1,12 @@
+[ 10%] Built target interpolation_demo
+[ 20%] Built target filters_demo
+[ 27%] Built target resolution_change_demo
+[ 34%] Built target opencv_demo
+[ 41%] Built target iterator_benchmark
+[ 48%] Built target move_demo
+[ 58%] Built target octomap_to_gridmap_demo
+[ 68%] Built target iterators_demo
+[ 75%] Built target simple_demo
+[ 82%] Built target tutorial_demo
+[ 89%] Built target normal_filter_comparison_demo
+[100%] Built target image_to_gridmap_demo

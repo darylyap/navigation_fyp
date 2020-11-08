@@ -1,0 +1,208 @@
+Invalid configuration `x86_64-unknown-linux-gnu': machine `x86_64-unknown' not recognized
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+ar: creating ../concorde.a
+[01m[Kcut_st.c:88:0:[m[K [01;35m[Kwarning: [m[K"INFINITY" redefined
+ #define INFINITY (1<<30)
+ 
+In file included from [01m[K../INCLUDE/machdefs.h:36:0[m[K,
+                 from [01m[Kcut_st.c:76[m[K:
+[01m[K/usr/include/math.h:91:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #  define INFINITY (__builtin_inff ())
+ 
+[01m[Kcutcall.c:[m[K In function ‘[01m[KCCtsp_file_cuts[m[K’:
+[01m[Kcutcall.c:1120:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (in, "%d", &size)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kcutcall.c:1127:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Kfscanf (in, "%d", &k)[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kcutcall.c:1137:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (in, "%d", &(c->rhs))[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:[m[K In function ‘[01m[KCCtsp_do_interactive_branch[m[K’:
+[01m[Kbcontrol.c:3253:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf ("%d %d", &ch0, &ch1)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3258:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kscanf ("%d", &tbran)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3263:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf ("%d %d", &bend0, &bend1)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3282:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf ("%d", &nseg)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3291:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf ("%d %d", &slist[2*i], &slist[2*i+1])[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3312:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kscanf ("%d", &nseg)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kbcontrol.c:3321:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kscanf ("%d", &bend0)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_crystal[m[K’:
+[01m[Kgetdata.c:2766:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Kfscanf (datin, "%lf", &orient[i][j])[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:2769:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%lf", &lambda)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:2772:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Kfscanf (datin, "%d", &(bounds[i][j]))[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_d2_text[m[K’:
+[01m[Kgetdata.c:3186:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", ncount)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:3200:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%lf%lf", &(dat->x[i]), &(dat->y[i]))[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_d3_text[m[K’:
+[01m[Kgetdata.c:3386:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", ncount)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:3406:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%lf%lf%lf",[m[K
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                &(dat->x[i]), &(dat->y[i]), &(dat->z[i]))[m[K;
+                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_dsjrand[m[K’:
+[01m[Kgetdata.c:3618:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%d", &seed)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:3619:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%d", &maxdist)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_user_text[m[K’:
+[01m[Kgetdata.c:3853:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", ncount)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:3862:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%lf%lf", &(userdat->x[i]), &(userdat->y[i]))[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[Kread_rhdata_text[m[K’:
+[01m[Kgetdata.c:3991:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d%d", &nvectors, &rhlength)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4009:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", &dat->dist_00)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4010:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", &dat->dist_01)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4011:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", &dat->dist_02)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4012:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", &dat->dist_12)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4013:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (datin, "%d", &dat->dist_22)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:4017:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (datin, "%*d %*s ")[m[K; /* vector labels */
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[KCCutil_getnodeweights[m[K’:
+[01m[Kgetdata.c:810:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (weightin, "%d", &k)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:818:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (weightin, "%lf", &((*wcoord)[i]))[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[KCCutil_gettsplib[m[K’:
+[01m[Kgetdata.c:982:25:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                         [01;35m[Kfscanf (in, "%*d %lf %lf", &(dat->x[i]), &(dat->y[i]))[m[K;
+                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1001:25:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                         [01;35m[Kfscanf (in, "%*d %lf %lf %lf",[m[K
+                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                               &(dat->x[i]), &(dat->y[i]), &(dat->z[i]))[m[K;
+                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1036:33:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                                 [01;35m[Kfscanf (in, "%d", &(dat->adj[i][j]))[m[K;
+                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1058:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                                     [01;35m[Kfscanf (in, "%d", &(tempadj[i][j]))[m[K;
+                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1061:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                                     [01;35m[Kfscanf (in, "%d", &(tempadj[i][j]))[m[K;
+                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1064:37:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                                     [01;35m[Kfscanf (in, "%d", &(tempadj[i][j]))[m[K;
+                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[KCCutil_getcycle_tsplib[m[K’:
+[01m[Kgetdata.c:1262:21:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                     [01;35m[Kfscanf (in, "%d", &k)[m[K;
+                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1269:17:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                 [01;35m[Kfscanf (in, "%d", &k)[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:[m[K In function ‘[01m[KCCutil_getcycle_edgelist[m[K’:
+[01m[Kgetdata.c:1695:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (cycfin, "%d %d", &i, &k)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kgetdata.c:1710:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (cycfin, "%d %d %*d", &(elist[2 * i]),[m[K
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                    &(elist[(2 * i) + 1]))[m[K;
+                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksubdiv.c:[m[K In function ‘[01m[KCCutil_read_subdivision_index[m[K’:
+[01m[Ksubdiv.c:442:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (f, "%d", &scount)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksubdiv.c:451:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (f, "%d %lf %lf %lf %lf %d %lf\n",[m[K
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                      &slist[i].id, &slist[i].xrange[0], &slist[i].xrange[1],[m[K
+                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                      &slist[i].yrange[0], &slist[i].yrange[1],[m[K
+                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                      &slist[i].cnt, &slist[i].bound)[m[K;
+                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksubdiv.c:[m[K In function ‘[01m[KCCutil_read_subdivision_lkh_index[m[K’:
+[01m[Ksubdiv.c:593:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+     [01;35m[Kfscanf (f, "%d", &scount)[m[K;
+     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Ksubdiv.c:602:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (f, "%d %d %d %lf %lf\n",[m[K
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                      &slist[i].id, &slist[i].cnt, &slist[i].start,[m[K
+                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                      &slist[i].origlen, &slist[i].newlen)[m[K;
+                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ar: creating bigguy.a
+ar: creating localcut.a
+ar: creating tsp.a
+ar: creating pq.a
+ar: creating edgegen.a
+ar: creating linkern.a
+ar: creating verify.a
+ar: creating fmatch.a
+ar: creating kdtree.a
+ar: creating combs.a
+ar: creating tiny.a
+ar: creating lp.a
+ar: creating util.a
+ar: creating heldkarp.a
+ar: creating cut.a
+[01m[Kmc_main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmc_main.c:117:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf (setin, "%d", &scount)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kmc_main.c:122:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (setin, "%d", &slist[i])[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kedg2len.c:[m[K In function ‘[01m[Kget_edges[m[K’:
+[01m[Kedg2len.c:179:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (f, "%*f")[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[Kfconvert.c:[m[K In function ‘[01m[Kgetgraph[m[K’:
+[01m[Kfconvert.c:359:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfscanf (indat, " %d", &i)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kfconvert.c:399:21:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+                     [01;35m[Kfscanf (indat, "%lf %lf", &((*xcoord)[i]),[m[K
+                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;35m[K                            &((*ycoord)[i]))[m[K;
+                             [01;35m[K~~~~~~~~~~~~~~~~[m[K

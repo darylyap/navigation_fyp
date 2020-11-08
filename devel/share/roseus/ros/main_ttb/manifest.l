@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/main_ttb/share/roseus/ros/main_ttb/manifest.l

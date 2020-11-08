@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_building_navigation/share/ipa_building_navigation/cmake/ipa_building_navigationConfig-version.cmake

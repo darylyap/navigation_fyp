@@ -1,0 +1,166 @@
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target EP_opengm[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target EP_opengm
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target ipa_building_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target ipa_building_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target ipa_building_msgs_generate_messages_py
+[  0%] Built target ipa_building_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target ipa_building_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target ipa_building_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target ipa_building_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target ipa_building_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target EP_libdlib[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target EP_libdlib
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target ipa_building_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target ipa_room_segmentation_gencfg[0m
+[  0%] Built target ipa_building_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  4%] [34m[1mGenerating dynamic reconfigure files from cfg/RoomSegmentation.cfg: /home/daryl/ttb_ws/devel/.private/ipa_room_segmentation/include/ipa_room_segmentation/RoomSegmentationConfig.h /home/daryl/ttb_ws/devel/.private/ipa_room_segmentation/lib/python2.7/dist-packages/ipa_room_segmentation/cfg/RoomSegmentationConfig.py[0m
+Generating reconfiguration files for RoomSegmentation in ipa_room_segmentation
+Wrote header file in /home/daryl/ttb_ws/devel/.private/ipa_room_segmentation/include/ipa_room_segmentation/RoomSegmentationConfig.h
+[  4%] Built target ipa_room_segmentation_gencfg
+[35m[1mScanning dependencies of target evaluation[0m
+[35m[1mScanning dependencies of target room_segmentation_client[0m
+[35m[1mScanning dependencies of target room_segmentation_server[0m
+[  9%] [32mBuilding CXX object CMakeFiles/evaluation.dir/common/src/evaluation_segmentation.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/evaluation.dir/ros/src/evaluation_numeric_properties.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/room_segmentation_client.dir/ros/src/room_segmentation_client.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/ros/src/room_segmentation_server.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/distance_segmentation.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/morphological_segmentation.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable /home/daryl/ttb_ws/devel/.private/ipa_room_segmentation/lib/ipa_room_segmentation/room_segmentation_client[0m
+[ 40%] [32m[1mLinking CXX executable /home/daryl/ttb_ws/devel/.private/ipa_room_segmentation/lib/ipa_room_segmentation/evaluation[0m
+[ 40%] Built target room_segmentation_client
+[ 45%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/abstract_voronoi_segmentation.cpp.o[0m
+[ 45%] Built target evaluation
+[ 50%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/voronoi_segmentation.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/wavefront_region_growing.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/contains.cpp.o[0m
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:[m[K In member function ‘[01m[Kvoid AdaboostClassifier::segmentMap(const cv::Mat&, cv::Mat&, double, double, double, const string&, const string&, bool)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   room_boost_->load(filename_room.c_str()[01;31m[K)[m[K;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   room_boost_->load(filename_room.c_str()[01;36m[K)[m[K;
+                                          [01;36m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;36m[K)[m[K;
+                                                [01;36m[K^[m[K
+[ 68%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/features.cpp.o[0m
+CMakeFiles/room_segmentation_server.dir/build.make:182: recipe for target 'CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o' failed
+make[2]: *** [CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:1140: recipe for target 'CMakeFiles/room_segmentation_server.dir/all' failed
+make[1]: *** [CMakeFiles/room_segmentation_server.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

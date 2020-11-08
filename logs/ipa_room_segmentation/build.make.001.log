@@ -1,0 +1,155 @@
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target EP_opengm
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target ipa_building_msgs_generate_messages_nodejs
+[  0%] Built target ipa_building_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target ipa_building_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target ipa_building_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target EP_libdlib
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target ipa_building_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  4%] Built target ipa_room_segmentation_gencfg
+[ 18%] Built target evaluation
+[ 27%] Built target room_segmentation_client
+[ 31%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/raycasting.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/meanshift2d.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/room_segmentation_server.dir/common/src/room_class.cpp.o[0m
+In file included from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/meanshift2d.cpp:61:0[m[K:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:[m[K In function ‘[01m[K{anonymous}::v4sf vfasterfc({anonymous}::v4sf)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:543:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   vc.i |= [01;36m[Kv4sil[m[K (0x80000000);
+           [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:543:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   vc.i |= [01;36m[Kv4sil[m[K (0x80000000);
+           [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:[m[K In function ‘[01m[K{anonymous}::v4sf vfastsin({anonymous}::v4sf)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:1463:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   v4si sign = vx.i & [01;36m[Kv4sil[m[K (0x80000000);
+                      [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:1463:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   v4si sign = vx.i & [01;36m[Kv4sil[m[K (0x80000000);
+                      [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:[m[K In function ‘[01m[K{anonymous}::v4sf vfastersin({anonymous}::v4sf)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:1484:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   v4si sign = vx.i & [01;36m[Kv4sil[m[K (0x80000000);
+                      [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:108:43:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K9223372039002259456[m[K’ from ‘[01m[Klong long unsigned int[m[K’ to ‘[01m[Klong long int[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+ #define v2dil(x) ((const v4si) { (x), (x) [01;31m[K}[m[K)
+                                           [01;31m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:109:18:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv2dil[m[K’
+ #define v4sil(x) [01;36m[Kv2dil[m[K((((unsigned long long) (x)) << 32) | (x))
+                  [01;36m[K^~~~~[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/fast_math.h:1484:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kv4sil[m[K’
+   v4si sign = vx.i & [01;36m[Kv4sil[m[K (0x80000000);
+                      [01;36m[K^~~~~[m[K
+CMakeFiles/room_segmentation_server.dir/build.make:302: recipe for target 'CMakeFiles/room_segmentation_server.dir/common/src/meanshift2d.cpp.o' failed
+make[2]: *** [CMakeFiles/room_segmentation_server.dir/common/src/meanshift2d.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:[m[K In member function ‘[01m[Kvoid AdaboostClassifier::segmentMap(const cv::Mat&, cv::Mat&, double, double, double, const string&, const string&, bool)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   room_boost_->load(filename_room.c_str()[01;31m[K)[m[K;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   room_boost_->load(filename_room.c_str()[01;36m[K)[m[K;
+                                          [01;36m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;36m[K)[m[K;
+                                                [01;36m[K^[m[K
+CMakeFiles/room_segmentation_server.dir/build.make:182: recipe for target 'CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o' failed
+make[2]: *** [CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o] Error 1
+CMakeFiles/Makefile2:1140: recipe for target 'CMakeFiles/room_segmentation_server.dir/all' failed
+make[1]: *** [CMakeFiles/room_segmentation_server.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

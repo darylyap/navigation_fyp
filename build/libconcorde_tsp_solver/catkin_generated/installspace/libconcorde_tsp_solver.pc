@@ -1,0 +1,8 @@
+prefix=/home/daryl/ttb_ws/install
+
+Name: libconcorde_tsp_solver
+Description: Description of libconcorde_tsp_solver
+Version: 0.6.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

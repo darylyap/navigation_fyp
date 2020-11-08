@@ -1,0 +1,31 @@
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:[m[K In member function ‘[01m[Kvoid AdaboostClassifier::segmentMap(const cv::Mat&, cv::Mat&, double, double, double, const string&, const string&, bool)[m[K’:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   room_boost_->load(filename_room.c_str()[01;31m[K)[m[K;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:238:42:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   room_boost_->load(filename_room.c_str()[01;36m[K)[m[K;
+                                          [01;36m[K^[m[K
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::ml::Boost::load(const char*)[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/usr/include/opencv2/opencv.hpp:52:0[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/include/ipa_room_segmentation/adaboost_classifier.h:2[m[K,
+                 from [01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:1[m[K:
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> static cv::Ptr<T> cv::Algorithm::load(const cv::String&, const cv::String&)
+     template<typename _Tp> static Ptr<_Tp> [01;36m[Kload[m[K(const String& filename, const String& objname=String())
+                                            [01;36m[K^~~~[m[K
+[01m[K/usr/include/opencv2/core.hpp:3074:44:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/daryl/ttb_ws/src/autopnp/ipa_room_segmentation/common/src/adaboost_classifier.cpp:248:48:[m[K [01;36m[Knote: [m[K  couldn't deduce template parameter ‘[01m[K_Tp[m[K’
+   hallway_boost_->load(filename_hallway.c_str()[01;36m[K)[m[K;
+                                                [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/room_segmentation_server.dir/common/src/adaboost_classifier.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/room_segmentation_server.dir/all] Error 2
+make: *** [all] Error 2

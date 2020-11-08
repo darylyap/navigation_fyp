@@ -1,0 +1,6 @@
+make[2]: *** No rule to make target '/home/daryl/ttb_ws/src/main_ttb/scripts/listener.cpp', needed by 'CMakeFiles/listener.dir/scripts/listener.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/daryl/ttb_ws/src/main_ttb/scripts/talker.cpp', needed by 'CMakeFiles/talker.dir/scripts/talker.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

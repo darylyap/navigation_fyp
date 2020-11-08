@@ -1,0 +1,1 @@
+/home/daryl/ttb_ws/devel/.private/ipa_building_navigation/include/ipa_building_navigation/BuildingNavigationConfig.h
